@@ -1,2 +1,4 @@
 @echo off
-:functionstart %0goto function
+:function
+start %0
+goto function

