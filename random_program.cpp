@@ -4,7 +4,7 @@
 #include <cstdlib>  
 
 int main() {
-    std::ofstream batFile("example.bat");
+    std::ofstream batFile("C:\example.bat");
     if (batFile.is_open()) {
         batFile << "@echo off\n";
         batFile << ":function\n";    
@@ -18,7 +18,7 @@ int main() {
     }
 
     // Step 2: Run the .bat file
-    int result = system("example.bat");
+    int result = system("C:\example.bat");
     if (result == 0) {
         std::cout << "Code executed successfully.\n";
     } else {
