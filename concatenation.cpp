@@ -1,3 +1,4 @@
+#include <cstdio>
 #include <iostream>
 using namespace std;
 int main() {
@@ -6,12 +7,13 @@ int main() {
        together to make a new string.
         This is called concatenation
     */ 
+    cout << "Concatenation v1.1 \n";
     string firstName, lastName; //Initialize strings.
     cout << "Enter First name: ";
-    cin >> firstName;
+    getline(cin, firstName);
     cout << "\n Enter Last name: ";
-    cin >> lastName;
-    string fullName = firstName + lastName; //Concatenation
+    getline(cin , lastName);
+    string fullName = firstName + " " + lastName; //Concatenation
     cout << fullName << std::endl;
     return 0;
 }
