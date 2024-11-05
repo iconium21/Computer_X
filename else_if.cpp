@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 int main(){
-    cout << "==Else if v1.2\n";
+    cout << "==Else if v1.3\n";
 program_start: // label
     int joinYear;
     cout << "Enter your join year (E.g 2005):  ";
@@ -16,7 +16,7 @@ program_start: // label
     {
         cout << "\nYou can receive the new bonus!\n";
     }
-    else if (joinYear<=2001 && joinYear>=1991) {
+    else if (joinYear<=2000 && joinYear>=1991) { //BUG FIX
         cout << "\n You can be promoted to Manager.\n";
     }
     
