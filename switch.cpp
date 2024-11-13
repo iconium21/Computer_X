@@ -19,11 +19,14 @@ int main() {
       cout << "\n Thursday.\n";
      break;
     case 5:
-      cout << "\n Friday. \n"; //Entering this value prints all days?? help
+      cout << "\n Friday. \n"; // fixed. forgot to add break.
+      break;
     case 6:
       cout << "\n Saturday. \n";
+      break;
     case 7:
       cout << "\n Sunday. \n";
+      break;
     default:
       cout << "nah";
     }
