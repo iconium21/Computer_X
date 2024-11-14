@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 int main() {
-    cout << "=== while loop v2\n";
+    cout << "=== while loop v2.2\n";
     int a;
     start: // Start label
     cout << "Enter integer: ";
