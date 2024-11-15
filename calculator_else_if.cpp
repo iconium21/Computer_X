@@ -16,7 +16,7 @@ int main() {
     if ((x==0 && oprt == '1')|| (y==0 && oprt=='1')) {
         cerr << "\n ERROR: Division by Zero is not possible! Try again.\n";
         goto start;
-    } 
+    }
     if (oprt=='1') {
         cout << x/y << endl;
         return 0;
